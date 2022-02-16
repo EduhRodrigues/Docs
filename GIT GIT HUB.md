@@ -1,65 +1,77 @@
-<h1> GIT ANNOTATIONS </H1>
-<h2> Useful Git Commands </h2>
+<h1> 👨🏾‍💻 GIT ANNOTATIONS </H1>
+💡 <h2> Useful Git Commands </h2>
 
->status: Developing
+>⚠️ status: developing
 
-<h5>Git/Windows10 64 bits</h5>
-<h6>https://git-scm.com/download/win</h6>
+#### Git Downloading<br>
++ https://git-scm.com/download
 
-Cloning a Git Hub Repository<br>
-git clone repositoryURL
+#### Checking Git installed version<br>
++ git --version
 
-Checking Git installed version<br>
-git --version
+#### Creating/Initializing an empty repository/default branch<br>
++ git init
 
-Creating/Initializing an empty repository/default branch<br>
-git init
+#### Changing default branch name from "master" to "main"<br>
++ git branch -M "main"<br>
 
-Changing default branch name from "master" to "main"<br>
-git branch -M "main"<br>
+#### Showing the repository status<br>
++ git status
 
-Showing the repository status<br>
-git status
+#### Adding file to stage<br>
++ git add fileName
 
-Adding file to stage<br>
-git add fileName
+#### Adding all available files to stage<br>
++ git add .
 
-Adding all available files to stage<br>
-git add .
+#### Creating a commit<br>
++ git commit -m "shortCommitDescription"
 
-Creating a commit<br>
-git commit -m "shortCommitDescription"
+#### Creating a repository at GitHub<br>
++ https://github.com
 
-Creating a repository at GitHub<br>
-https://github.com
+#### Adding/Connecting a remote sync between the Git and a Github repository<br>
++ git remote add origin "repository-URL"
 
-Adding/Connecting a remote sync between the Git and a Github repository<br>
-git remote add origin "repository-URL"
+#### Pushing the local repository to the remote repository<br>
++ git push -u origin main
 
-Pushing the local repository to the remote repository<br>
-git push -u origin main
+#### Pulling the remote repository changes<br>
++ git pull
 
-Creating a new branch<br>
-git checkout -b Secbranch
+#### Cloning a Git Hub Repository<br>
++ git clone repositoryURL
 
-Switching branches<br>
-git checkout main
+#### Creating a new branch<br>
++ git checkout -b Secbranch
 
-Merging branches<br>
-git merge branchName
+#### Switching branches<br>
++ git checkout main
 
-Aborting merged branches;
-git merge --abort
+#### Merging branches<br>
++ git merge branchName
 
-Deleting a local branch;
-git branch -d branchName
+#### Aborting merged branches<br>
++ git merge --abort
 
-Deleting a remote branch;
-git push origin :branchName
+#### Deleting a local branch<br>
++ git branch -d branchName
 
-<h3> Refreshing GitHub: </h3><br>
-<h4>1st- Save file changes<br>
-    2nd- git add . <br>
-    3rd- git commit -m "shortCommitDescription" <br>
-    4th- git push origin branchName
-</h4>
+#### Deleting a remote branch<br>
++ git push origin :branchName
+
+#### Refreshing GitHub:
+<table>
+    <tr>
+        <td>1st- Save file changes</td>
+    </tr>
+    <tr>
+        <td>2nd- git add .</td>
+    </tr>
+    <tr>
+        <td>3rd- git commit -m "shortCommitDescription"</td>
+    </tr>
+    <tr>
+        <td>4th- git push origin branchName</td>
+    </tr>
+ </table>
