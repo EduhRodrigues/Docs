@@ -2,7 +2,7 @@
 <h1>GIT ANNOTATIONS </H1>
 <h2> Useful Git Commands </h2>
 
->⚠️ status: developing
+>⚠️ status: Developing
 
 #### Git Downloading<br>
 + https://git-scm.com/download
