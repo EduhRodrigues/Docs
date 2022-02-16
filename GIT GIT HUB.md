@@ -1,8 +1,8 @@
-![icons8-git](https://user-images.githubusercontent.com/67625804/154203860-ac702c40-98c9-4bab-a3f5-c93b97f46980.svg)
-<h1>GIT ANNOTATIONS </H1>
-<h2> Useful Git Commands </h2>
-
->⚠️ status: Developing
+# ![icons8-git](https://user-images.githubusercontent.com/67625804/154203860-ac702c40-98c9-4bab-a3f5-c93b97f46980.svg) GIT ANNOTATIONS
+###### ⚠️  status: Developing <br> <br>
+ 
+ 
+### ``` Useful Git Commands: ```
 
 #### Git Downloading<br>
 + https://git-scm.com/download
@@ -69,5 +69,7 @@
  3º git commit -m "shortCommitDescription"
  4º git push origin branchName
  ```
+ 
+ > > ola
 
 
