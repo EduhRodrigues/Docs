@@ -4,53 +4,96 @@
  
 ### ``` Useful Git Commands: ```
 
-<dl>
+
   <dt>Git Downloading</dt>
-   <dd>https://git-scm.com/download</dd>
- <dt>Checking Git installed version:</dt>
-  <dd>git --version</dd>
-<dt>Creating/Initializing an empty repository/default branch:</dt>
-  <dd>git init</dd>
-<dt>Changing default branch name from "master" to "main":</dt>
-  <dd>git branch -M "main"</dd>
+  
+ **``` https://git-scm.com/download ```**
+   
+  <dt>Checking Git installed version:</dt>
+  
+  **``` git --version ```**
+ 
+  <dt>Creating/Initializing an empty repository/default branch:</dt>
+
+  **``` git init ```**
+ 
+<dt>Changing default branch name from master to main:</dt>
+
+  **``` git branch -M "main" ```**
+ 
  <dt>Showing the repository status:</dt>
-  <dd>git status</dd>
+ 
+ **``` git status ```**
+ 
  <dt>Adding file to stage:</dt>
-  <dd>git add fileName</dd>
+ 
+  **``` git add fileName ```**
+ 
  <dt>Adding all available files to stage:</dt>
-  <dd>git add .</dd>
+ 
+  **``` git add . ```**
+ 
  <dt>Creating a commit:</dt>
-  <dd>git commit -m "shortCommitDescription"</dd>
+ 
+  **``` git commit -m "shortCommitDescription" ```**
+ 
  <dt>Creating a repository at GitHub:</dt>
-  <dd>https://github.com</dd>
+ 
+  **``` https://github.com ```**
+ 
  <dt>Adding/Connecting a remote sync between the Git and a Github repository:</dt>
-  <dd>git remote add origin "repository-URL"</dd>
+ 
+  **``` git remote add origin "repository-URL" ```**
+ 
  <dt>Pushing the local repository to the remote repository:</dt>
-  <dd>git push -u origin main</dd>
+ 
+  **``` git push -u origin main ```**
+ 
  <dt>Pulling the remote repository changes:</dt>
-  <dd>git pull</dd>
+ 
+  **``` git pull ```**
+ 
  <dt>Cloning a Git Hub repository:</dt>
-  <dd>git clone repositoryURL</dd>
+ 
+  **``` git clone repositoryURL ```**
+ 
  <dt>Creating a new branch:</dt>
-  <dd>git checkout -b feature</dd>
+ 
+ **``` git checkout -b feature ```**
+ 
  <dt>Switching branches:</dt>
-  <dd>git checkout main</dd>
+ 
+  **``` git checkout main ```**
+ 
  <dt>Merging branches:</dt>
-  <dd>git merge branchName</dd>
+ 
+  **``` git merge branchName ```**
+ 
  <dt>Aborting branches merging:</dt>
-  <dd>git merge --abort</dd>
+ 
+  **``` git merge --abort ```**
+ 
  <dt>Deleting a local branch:</dt>
-  <dd>git branch -d branchName</dd>
+ 
+  **``` git branch -d branchName ```**
+ 
  <dt>Deleting a remote branch:</dt>
-  <dd>git push origin :branchName</dd>
-</dl>
+ 
+  **``` git push origin :branchName ```**
+<br>
+<br>
+<dt> Update in Github remote directory </dt>
 
+**``` 1st Save the file changes ```**
 
+**``` 2nd git add . ```** 
 
-#### Refreshing GitHub:
-```
- 1º Save file changes
- 2º git add .
- 3º git commit -m "shortCommitDescription"
- 4º git push origin branchName
- ```
+**``` 3rd git commit -m "shortCommitDescription" ```**
+
+**``` 4th git push origin branchName ```**
+
+<dt> Update in local directory </dt>
+
+**``` 1st Commit changes in the remote directory ```**
+
+**``` 2nd git pull```** 
