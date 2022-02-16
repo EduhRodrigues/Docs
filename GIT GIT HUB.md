@@ -1,6 +1,10 @@
 Git/Windows10 64 bits;
 https://git-scm.com/download/win
 
+Cloning a Git Hub Repository
+git clone repositoryURL
+
+
 Checking Git installed version;
 git --version
 
