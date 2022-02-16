@@ -1,46 +1,51 @@
-Git/Windows10 64 bits;
-https://git-scm.com/download/win
+<h1> GIT ANNOTATIONS </H1>
+<h2> Useful Git Commands </h2>
 
-Cloning a Git Hub Repository
+>status: Developing
+
+<h5>Git/Windows10 64 bits</h5>
+<h6>https://git-scm.com/download/win</h6>
+
+Cloning a Git Hub Repository<br>
 git clone repositoryURL
 
-Checking Git installed version;
+Checking Git installed version<br>
 git --version
 
-Creating/Initializing an empty repository/default branch;
+Creating/Initializing an empty repository/default branch<br>
 git init
 
-Changing default branch name from "master" to "main";
-git branch -M "main"
+Changing default branch name from "master" to "main"<br>
+git branch -M "main"<br>
 
-Showing the repository status;
+Showing the repository status<br>
 git status
 
-Adding file to stage;
+Adding file to stage<br>
 git add fileName
 
-Adding all available files to stage;
+Adding all available files to stage<br>
 git add .
 
-Creating a commit;
+Creating a commit<br>
 git commit -m "shortCommitDescription"
 
-Creating a repository at GitHub;
+Creating a repository at GitHub<br>
 https://github.com
 
-Adding/Connecting a remote sync between the Git and a Github repository;
+Adding/Connecting a remote sync between the Git and a Github repository<br>
 git remote add origin "repository-URL"
 
-Pushing the local repository to the remote repository;
+Pushing the local repository to the remote repository<br>
 git push -u origin main
 
-Creating a new branch;
+Creating a new branch<br>
 git checkout -b Secbranch
 
-Switching branches;
+Switching branches<br>
 git checkout main
 
-Merging branches;
+Merging branches<br>
 git merge branchName
 
 Aborting merged branches;
