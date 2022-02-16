@@ -61,18 +61,13 @@
 #### Deleting a remote branch<br>
 + git push origin :branchName
 
+
 #### Refreshing GitHub:
-<table>
-    <tr>
-        <td>1st- Save file changes</td>
-    </tr>
-    <tr>
-        <td>2nd- git add .</td>
-    </tr>
-    <tr>
-        <td>3rd- git commit -m "shortCommitDescription"</td>
-    </tr>
-    <tr>
-        <td>4th- git push origin branchName</td>
-    </tr>
- </table>
+```
+ 1º Save file changes
+ 2º git add .
+ 3º git commit -m "shortCommitDescription"
+ 4º git push origin branchName
+ ```
+
+
