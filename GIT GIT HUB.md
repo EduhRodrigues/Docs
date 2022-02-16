@@ -1,5 +1,5 @@
 <h1> 👨🏾‍💻 GIT ANNOTATIONS </H1>
-💡 <h2> Useful Git Commands </h2>
+<h2> Useful Git Commands </h2>
 
 >⚠️ status: developing
 
