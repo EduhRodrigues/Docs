@@ -58,7 +58,8 @@ Deleting a remote branch;
 git push origin :branchName
 
 <h3> Refreshing GitHub: </h3><br>
-1st- Save file changes<br>
-2nd- git add . <br>
-3rd- git commit -m "shortCommitDescription" <br>
-4th- git push origin branchName
+<h4>1st- Save file changes<br>
+    2nd- git add . <br>
+    3rd- git commit -m "shortCommitDescription" <br>
+    4th- git push origin branchName
+</h4>
