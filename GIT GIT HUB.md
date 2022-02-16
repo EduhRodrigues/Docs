@@ -82,7 +82,7 @@
   **``` git push origin :branchName ```**
 <br>
 <br>
-<dt> Update in Github remote directory </dt>
+<dt> Update in Github remote directory: </dt>
 
 **``` 1st Save the file changes ```**
 
@@ -91,8 +91,9 @@
 **``` 3rd git commit -m "shortCommitDescription" ```**
 
 **``` 4th git push origin branchName ```**
-
-<dt> Update in local directory </dt>
+<br>
+<br>
+<dt> Update in local directory: </dt>
 
 **``` 1st Commit changes in the remote directory ```**
 
