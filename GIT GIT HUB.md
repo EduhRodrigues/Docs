@@ -1,4 +1,5 @@
-<h1> 👨🏾‍💻 GIT ANNOTATIONS </H1>
+![icons8-git](https://user-images.githubusercontent.com/67625804/154203860-ac702c40-98c9-4bab-a3f5-c93b97f46980.svg)
+<h1>GIT ANNOTATIONS </H1>
 <h2> Useful Git Commands </h2>
 
 >⚠️ status: developing
