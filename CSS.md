@@ -1,4 +1,5 @@
- // Alterar valores de variável conforme tamanho da tela (responsivo) //
+ // Web App Responsiveness //
+ 
  :root {
     --umavariavel-size: 300px;
     --umavariavel-skin: gray;
@@ -12,5 +13,5 @@
      --umavariavel-skin: black;
     }
 
-    //
+  
 
