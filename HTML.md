@@ -1,5 +1,5 @@
 //HTML Template Shortcut //
-    ! + Tab
+ ``` ! + Tab ```
 
 <!DOCTYPE html>
 <html lang="en">
