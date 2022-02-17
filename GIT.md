@@ -2,7 +2,7 @@
 ###### ⚠️  status: Developing <br> <br>
  
  
-### ``` Useful Git Commands: ```
+### ``` Useful Git commands: ```
 
 
   <dt>Git Downloading</dt>
