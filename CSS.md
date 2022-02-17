@@ -1,4 +1,4 @@
- // Web App Responsiveness //
+ // App View Responsiveness //
  
  :root {
     --umavariavel-size: 300px;
