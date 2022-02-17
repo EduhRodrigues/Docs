@@ -1,5 +1,5 @@
-// Atalho para modelo html //
-! + Tab
+//HTML Template Shortcut //
+    ! + Tab
 
 <!DOCTYPE html>
 <html lang="en">
