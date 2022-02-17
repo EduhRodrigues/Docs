@@ -44,6 +44,15 @@
  <dt>Adding/Connecting a remote sync between the Git and a Github repository:</dt>
  
   **``` git remote add origin "repository-URL" ```**
+
+  <dt>Deleting a remote sync between the Git and a Github repository:</dt>
+ 
+  **``` git remote remove origin ```**
+
+   <dt>Setting up origin main:</dt>
+ 
+  **``` git push --set-upstream origin main ```** 
+
  
  <dt>Pushing the local repository to the remote repository:</dt>
  
