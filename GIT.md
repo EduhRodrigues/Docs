@@ -12,7 +12,14 @@
   <dt>Checking Git installed version:</dt>
   
   **``` git --version ```**
- 
+  
+  <dt>Setting the Git name:</dt>
+  
+  **``` git config --global user.name "Fulano de Tal" ```**
+  
+  <dt>Setting the Git email:</dt>
+  
+  **``` git config --global user.email fulanodetal@exemplo.br ```**
   <dt>Creating/Initializing an empty repository/default branch:</dt>
 
   **``` git init ```**
